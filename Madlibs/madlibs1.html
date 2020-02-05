@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mad Libs</title>
+     <h1>"Littleman Tate's Collection"</h1>  
+    <style>
+        body {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+    <body>
+    <p> This is a story about a little man Tate.  Littile Tate had many hobbies but one of his favorites was collecting <span class="noun1">___________</span>.
+        In fact Little Tates  <span class="noun2">__________</span> was so extensive it was valued is excess to of $100.000.00 and counting. However 
+        unlike most collectors Little Tate had a sickness.  He did not like to share his collection with <span class="noun3">________</span>. 
+        over time Little Tate started to reflect on his life and his <span id="adjective1">________</span> behavior and he realized that he needed to make significant changes in his life.</p>
+    <p>
+        In hac habitasse platea dictumst. Aenean eget accumsan metus, vitae scelerisque lectus. Phasellus cursus lorem
+        augue, sit amet tincidunt nulla iaculis sit amet. Vivamus iaculis sodales consectetur. Proin imperdiet odio nec
+        tellus luctus porttitor. Phasellus tristique eget dui ut convallis. Vestibulum suscipit, magna eget maximus
+        condimentum, nunc enim placerat orci, ut dapibus diam diam sed libero. In tincidunt, velit quis suscipit
+        accumsan, sapien lacus consequat arcu, vel venenatis lacus leo in quam. Aliquam euismod nibh nulla.</p>
+    <form>
+        <label>A Noun:
+            <input type="text" class="noun1Input" value="" />
+        </label>
+        <label>Noun2:
+            <input type="text" clsss="noun2Input" value="" />
+        </label>Noun3:
+            <input type="text" class="noun3Input" value="" />
+        </label>Adjective:
+        <input type="text" id="adjective1Input" value="" />    
+        <button type="button" id="clickMe">Click Me</button>
+    </form>
+</body>
+<script>
+
+            function changeStyle() {
+                const element = ClassName(" ");
+    </script
+
+    const myButton = document.getElementById("clickMe");
+    const noun1 = document.getElementById("noun1");
+    const noun1Input = document.getElementById("noun1Input");
+    const noun2 = document.getElementById("noun2");
+    const noun2Input = document.getElementById("noun2Input");
+    const y = document.getElementsByClassName('noun1')[0];
+    const aNode = y[0];
+
+    myButton.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        noun1.innerHTML = noun1Input.value;
+    });
+</script>
+
+</html>
